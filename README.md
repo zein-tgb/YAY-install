@@ -1,30 +1,30 @@
-# YAY Install
+# Instalacion de YAY
 
 > [!IMPORTANT]
 > Escribe comandos correctamente
 
-Paso 1:
+Paso 1: actualiza paquetes de arch linux
 ```shell
-sudo pacman -Syyu                                   // actualiza paquetes de arch linux
+sudo pacman -Syyu
 ```
 
-Paso 2:
+Paso 2: instala paquetes necesarios
 ```shell
-sudo pacman -S --needed base base-devel git         // instala paquetes necesarios
+sudo pacman -S --needed base base-devel git
 ```
 
-Paso 3:
+Paso 3: clona el repositorio
 ```shell
-git clone https://aur.archlinux.org/yay.git         // clona el repositorio
+git clone https://aur.archlinux.org/yay.git
 ```
 
-Paso 4:
+Paso 4: ingresa a la carpeta
 ```shell
-cd yay                                              // ingresa a la carpeta
+cd yay
 ```
 
-Paso 5:
+Paso 5: instala yay a través de este comando
 ```shell
-makepkg -si                                         // instala yay a través de este comando
+makepkg -si
 ```
 	

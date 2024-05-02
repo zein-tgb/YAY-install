@@ -1,4 +1,7 @@
-# YAY-install
+# YAY Install
+
+> [!IMPORTANT]
+> Escribe comandos correctamente
 
 Paso 1:
 ```shell

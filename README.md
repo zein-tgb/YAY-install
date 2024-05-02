@@ -14,3 +14,4 @@ Paso 4:
 
 Paso 5:
         makepkg -si                                         // instala yay a través de este comando
+	

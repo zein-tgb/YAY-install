@@ -1,7 +1,10 @@
 # YAY-install
 
 Paso 1:
-        sudo pacman -Syyu                                   // actualiza paquetes de arch linux
+
+```shell
+sudo pacman -Syyu                                   // actualiza paquetes de arch linux
+```
 
 Paso 2:
         sudo pacman -S --needed base base-devel git         // instala paquetes necesarios

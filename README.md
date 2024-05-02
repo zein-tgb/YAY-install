@@ -4,7 +4,9 @@
 > Escribe comandos correctamente
 
 Paso 1: actualiza paquetes de arch linux
-```shell sudo pacman -Syyu```
+```shell
+sudo pacman -Syyu
+```
 
 Paso 2: instala paquetes necesarios
 ```shell

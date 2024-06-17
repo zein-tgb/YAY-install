@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > Escribe comandos correctamente
 
-Paso 1: actualiza paquetes de arch linux
+Paso 1: actualiza paquetes de arch linux o derivados
 ```shell
 sudo pacman -Syyu
 ```
@@ -26,5 +26,10 @@ cd yay
 Paso 5: instala yay a través de este comando
 ```shell
 makepkg -si
+```
+
+Paso 6: verifica instalacion
+```shell
+yay --version
 ```
 	
